@@ -1,11 +1,13 @@
 NAME = inception
 
-COMPOSE = docker-compose -f srcs/docker-compose.yml
+COMPOSE = sudo docker compose -f srcs/docker-compose.yml
 
 all: up
 
 up:
-	$(COMPOSE) up --build -d
+	@mkdir -p /home/abouabba/data/wordpress
+	@mkdir -p /home/abouabba/data/mariadb
+	$(COMPOSE) up --build
 
 down:
 	$(COMPOSE) down
