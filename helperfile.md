@@ -1,0 +1,244 @@
+# 🚀 Phase 1 — Understand the Technologies (The "What & Why" Phase)
+
+<details>
+<summary><strong>Open Phase 1</strong></summary>
+
+## 🗄️ MariaDB
+
+- [ ] What is MariaDB?
+- [ ] Why does Inception require MariaDB?
+- [ ] Why MariaDB instead of MySQL?
+- [ ] Database fundamentals (DB, table, row, column, user, SQL)
+- [ ] How WordPress uses MariaDB
+
+---
+
+## 🌐 WordPress
+
+- [ ] What is WordPress?
+- [ ] Why does Inception require WordPress?
+- [ ] PHP basics
+- [ ] PHP-FPM
+- [ ] WP-CLI
+- [ ] How WordPress works internally
+
+---
+
+## 🔒 Nginx
+
+- [ ] What is Nginx?
+- [ ] Why do we need a web server?
+- [ ] Reverse Proxy
+- [ ] HTTPS
+- [ ] TLS 1.2 / TLS 1.3
+- [ ] SSL certificates
+- [ ] FastCGI
+- [ ] Complete request lifecycle
+
+---
+
+## 🐳 Docker
+
+- [ ] What is Docker?
+- [ ] Why containers?
+- [ ] VM vs Container
+- [ ] Images
+- [ ] Containers
+- [ ] Dockerfile
+- [ ] Docker Compose
+- [ ] Volumes
+- [ ] Networks
+
+**✅ Phase 1 Complete**
+
+</details>
+
+---
+
+# ⚙️ Phase 2 — Understand Your Inception Project
+
+<details>
+<summary><strong>Open Phase 2</strong></summary>
+
+## 🗄️ MariaDB
+
+- [ ] Directory structure
+- [ ] Dockerfile (line by line)
+- [ ] `50-server.cnf`
+- [ ] `init.sh`
+- [ ] ENTRYPOINT
+- [ ] Environment variables
+- [ ] Runtime sequence
+- [ ] Volume usage
+- [ ] Defense questions
+
+---
+
+## 🌐 WordPress
+
+- [ ] Directory structure
+- [ ] Dockerfile
+- [ ] `init.sh`
+- [ ] WP-CLI commands
+- [ ] `wp-config.php`
+- [ ] Runtime sequence
+- [ ] Connection with MariaDB
+- [ ] Volume usage
+- [ ] Defense questions
+
+---
+
+## 🔒 Nginx
+
+- [ ] Directory structure
+- [ ] Dockerfile
+- [ ] `nginx.conf`
+- [ ] TLS certificates
+- [ ] FastCGI configuration
+- [ ] Runtime sequence
+- [ ] Defense questions
+
+---
+
+## 🐳 docker-compose.yml
+
+- [ ] Purpose of Docker Compose
+- [ ] `services`
+- [ ] `build`
+- [ ] `image`
+- [ ] `container_name`
+- [ ] `depends_on`
+- [ ] `restart`
+- [ ] `env_file`
+- [ ] `environment`
+- [ ] `volumes`
+- [ ] `networks`
+- [ ] Startup sequence
+- [ ] Defense questions
+
+---
+
+## ⚙️ Makefile
+
+- [ ] Variables
+- [ ] Targets
+- [ ] `.PHONY`
+- [ ] Execution flow
+
+**✅ Phase 2 Complete**
+
+</details>
+
+---
+
+# 🧠 Phase 3 — Docker Internals (Deep Understanding)
+
+<details>
+<summary><strong>Open Phase 3</strong></summary>
+
+## Docker Architecture
+
+- [ ] Docker CLI
+- [ ] Docker Engine
+- [ ] `dockerd`
+- [ ] `containerd`
+- [ ] `runc`
+- [ ] OCI
+
+---
+
+## Images
+
+- [ ] Image layers
+- [ ] Build cache
+- [ ] Dockerfile execution
+- [ ] Image lifecycle
+
+---
+
+## Containers
+
+- [ ] Container lifecycle
+- [ ] Writable layer
+- [ ] PID 1
+- [ ] Signals
+- [ ] ENTRYPOINT vs CMD
+
+---
+
+## Storage
+
+- [ ] OverlayFS
+- [ ] Named Volumes
+- [ ] Bind Mounts
+- [ ] Anonymous Volumes
+
+---
+
+## Networking
+
+- [ ] Bridge network
+- [ ] Docker DNS
+- [ ] Service discovery
+- [ ] Ports vs Expose
+- [ ] Container communication
+
+---
+
+## Linux
+
+- [ ] Namespaces
+- [ ] Cgroups
+- [ ] Process isolation
+- [ ] Resource limits
+
+**✅ Phase 3 Complete**
+
+</details>
+
+---
+
+# 🎓 Phase 4 — Defense Preparation
+
+<details>
+<summary><strong>Open Phase 4</strong></summary>
+
+## Defense Practice
+
+- [ ] MariaDB defense
+- [ ] WordPress defense
+- [ ] Nginx defense
+- [ ] docker-compose.yml defense
+- [ ] Makefile defense
+- [ ] Docker architecture defense
+
+---
+
+## Runtime Explanations
+
+- [ ] Explain the full startup sequence
+- [ ] Explain an HTTP request from browser to WordPress
+- [ ] Explain Docker startup from `make`
+
+---
+
+## Troubleshooting
+
+- [ ] Database connection failures
+- [ ] Nginx 502 errors
+- [ ] TLS problems
+- [ ] Volume issues
+- [ ] Network issues
+- [ ] Build failures
+
+---
+
+## Mock Defense
+
+- [ ] 50-question evaluator session
+- [ ] 100-question evaluator session
+- [ ] Final evaluation
+
+**🏆 Inception Mastered**
+
+</details>
