@@ -5,28 +5,28 @@
 
 ## 🗄️ MariaDB
 
-- [ ] What is MariaDB?
-- [ ] Why does Inception require MariaDB?
-- [ ] Why MariaDB instead of MySQL?
-- [ ] Database fundamentals (DB, table, row, column, user, SQL)
-- [ ] How WordPress uses MariaDB
+- [1] What is MariaDB?
+- [1] Why does Inception require MariaDB?
+- [1] Why MariaDB instead of MySQL?
+- [1] Database fundamentals (DB, table, row, column, user, SQL)
+- [1] How WordPress uses MariaDB
 
 ---
 
 ## 🌐 WordPress
 
-- [ ] What is WordPress?
-- [ ] Why does Inception require WordPress?
-- [ ] PHP basics
-- [ ] PHP-FPM
-- [ ] WP-CLI
-- [ ] How WordPress works internally
+- [1] What is WordPress?
+- [1] Why does Inception require WordPress?
+- [1] PHP basics
+- [1] PHP-FPM
+- [1] WP-CLI
+- [1] How WordPress works internally
 
 ---
 
 ## 🔒 Nginx
 
-- [ ] What is Nginx?
+- [1] What is Nginx?
 - [ ] Why do we need a web server?
 - [ ] Reverse Proxy
 - [ ] HTTPS
