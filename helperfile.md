@@ -27,24 +27,24 @@
 ## 🔒 Nginx
 
 - [1] What is Nginx?
-- [ ] Why do we need a web server?
-- [ ] Reverse Proxy
-- [ ] HTTPS
-- [ ] TLS 1.2 / TLS 1.3
-- [ ] SSL certificates
-- [ ] FastCGI
-- [ ] Complete request lifecycle
+- [1] Why do we need a web server?
+- [1] Reverse Proxy
+- [1] HTTPS
+- [1] TLS 1.2 / TLS 1.3
+- [1] SSL certificates
+- [1] FastCGI
+- [1] Complete request lifecycle
 
 ---
 
 ## 🐳 Docker
 
-- [ ] What is Docker?
-- [ ] Why containers?
-- [ ] VM vs Container
-- [ ] Images
-- [ ] Containers
-- [ ] Dockerfile
+- [1] What is Docker?
+- [1] Why containers?
+- [1] VM vs Container
+- [1] Images
+- [1] Containers
+- [1] Dockerfile
 - [ ] Docker Compose
 - [ ] Volumes
 - [ ] Networks
