@@ -45,9 +45,9 @@
 - [1] Images
 - [1] Containers
 - [1] Dockerfile
-- [ ] Docker Compose
-- [ ] Volumes
-- [ ] Networks
+- [1] Docker Compose
+- [1] Volumes
+- [1] Networks
 
 **✅ Phase 1 Complete**
 
@@ -62,10 +62,10 @@
 
 ## 🗄️ MariaDB
 
-- [ ] Directory structure
-- [ ] Dockerfile (line by line)
-- [ ] `50-server.cnf`
-- [ ] `init.sh`
+- [1] Directory structure
+- [1] Dockerfile (line by line)
+- [1] `50-server.cnf`
+- [] `init.sh`
 - [ ] ENTRYPOINT
 - [ ] Environment variables
 - [ ] Runtime sequence
