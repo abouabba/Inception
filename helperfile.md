@@ -65,10 +65,10 @@
 - [1] Directory structure
 - [1] Dockerfile (line by line)
 - [1] `50-server.cnf`
-- [] `init.sh`
-- [ ] ENTRYPOINT
-- [ ] Environment variables
-- [ ] Runtime sequence
+- [1] `init.sh`
+- [1] ENTRYPOINT
+- [1] Environment variables
+- [1] Runtime sequence
 - [ ] Volume usage
 - [ ] Defense questions
 
