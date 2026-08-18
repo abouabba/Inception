@@ -70,14 +70,14 @@
 - [1] Environment variables
 - [1] Runtime sequence
 - [1] Volume usage
-- [ ] Defense questions
+- [1] Defense questions
 
 ---
 
 ## 🌐 WordPress
 
-- [ ] Directory structure
-- [ ] Dockerfile
+- [1] Directory structure
+- [] Dockerfile
 - [ ] `init.sh`
 - [ ] WP-CLI commands
 - [ ] `wp-config.php`
