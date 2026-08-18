@@ -77,8 +77,8 @@
 ## 🌐 WordPress
 
 - [1] Directory structure
-- [] Dockerfile
-- [ ] `init.sh`
+- [1] Dockerfile
+- [] `init.sh`
 - [ ] WP-CLI commands
 - [ ] `wp-config.php`
 - [ ] Runtime sequence
