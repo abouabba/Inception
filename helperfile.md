@@ -78,8 +78,8 @@
 
 - [1] Directory structure
 - [1] Dockerfile
-- [] `init.sh`
-- [ ] WP-CLI commands
+- [1] `init.sh`
+- [] WP-CLI commands
 - [ ] `wp-config.php`
 - [ ] Runtime sequence
 - [ ] Connection with MariaDB
