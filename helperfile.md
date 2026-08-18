@@ -69,7 +69,7 @@
 - [1] ENTRYPOINT
 - [1] Environment variables
 - [1] Runtime sequence
-- [ ] Volume usage
+- [1] Volume usage
 - [ ] Defense questions
 
 ---
