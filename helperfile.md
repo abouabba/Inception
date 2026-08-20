@@ -79,30 +79,30 @@
 - [1] Directory structure
 - [1] Dockerfile
 - [1] `init.sh`
-- [] WP-CLI commands
-- [ ] `wp-config.php`
-- [ ] Runtime sequence
-- [ ] Connection with MariaDB
-- [ ] Volume usage
-- [ ] Defense questions
+- [1] WP-CLI commands
+- [1] `wp-config.php`
+- [1] Runtime sequence
+- [1] Connection with MariaDB
+- [1] Volume usage
+- [1] Defense questions
 
 ---
 
 ## 🔒 Nginx
 
-- [ ] Directory structure
-- [ ] Dockerfile
-- [ ] `nginx.conf`
-- [ ] TLS certificates
-- [ ] FastCGI configuration
-- [ ] Runtime sequence
-- [ ] Defense questions
+- [1] Directory structure
+- [1] Dockerfile
+- [1] `nginx.conf`
+- [1] TLS certificates
+- [1] FastCGI configuration
+- [1] Runtime sequence
+- [1] Defense questions
 
 ---
 
 ## 🐳 docker-compose.yml
 
-- [ ] Purpose of Docker Compose
+- [] Purpose of Docker Compose
 - [ ] `services`
 - [ ] `build`
 - [ ] `image`
