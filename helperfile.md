@@ -102,28 +102,28 @@
 
 ## 🐳 docker-compose.yml
 
-- [] Purpose of Docker Compose
-- [ ] `services`
-- [ ] `build`
-- [ ] `image`
-- [ ] `container_name`
-- [ ] `depends_on`
-- [ ] `restart`
-- [ ] `env_file`
-- [ ] `environment`
-- [ ] `volumes`
-- [ ] `networks`
-- [ ] Startup sequence
-- [ ] Defense questions
+- [1] Purpose of Docker Compose
+- [1] `services`
+- [1] `build`
+- [1] `image`
+- [1] `container_name`
+- [1] `depends_on`
+- [1] `restart`
+- [1] `env_file`
+- [1] `environment`
+- [1] `volumes`
+- [1] `networks`
+- [1] Startup sequence
+- [1] Defense questions
 
 ---
 
 ## ⚙️ Makefile
 
-- [ ] Variables
-- [ ] Targets
-- [ ] `.PHONY`
-- [ ] Execution flow
+- [1] Variables
+- [1] Targets
+- [1] `.PHONY`
+- [1] Execution flow
 
 **✅ Phase 2 Complete**
 
@@ -138,40 +138,40 @@
 
 ## Docker Architecture
 
-- [ ] Docker CLI
-- [ ] Docker Engine
-- [ ] `dockerd`
-- [ ] `containerd`
-- [ ] `runc`
-- [ ] OCI
+- [1] Docker CLI
+- [1] Docker Engine
+- [1] `dockerd`
+- [1] `containerd`
+- [1] `runc`
+- [1] OCI
 
 ---
 
 ## Images
 
-- [ ] Image layers
-- [ ] Build cache
-- [ ] Dockerfile execution
-- [ ] Image lifecycle
+- [1] Image layers
+- [1] Build cache
+- [1] Dockerfile execution
+- [1] Image lifecycle
 
 ---
 
 ## Containers
 
-- [ ] Container lifecycle
-- [ ] Writable layer
-- [ ] PID 1
-- [ ] Signals
-- [ ] ENTRYPOINT vs CMD
+- [1] Container lifecycle
+- [1] Writable layer
+- [1] PID 1
+- [1] Signals
+- [1] ENTRYPOINT vs CMD
 
 ---
 
 ## Storage
 
-- [ ] OverlayFS
-- [ ] Named Volumes
-- [ ] Bind Mounts
-- [ ] Anonymous Volumes
+- [1] OverlayFS
+- [1] Named Volumes
+- [1] Bind Mounts
+- [1] Anonymous Volumes
 
 ---
 
