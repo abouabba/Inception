@@ -177,20 +177,20 @@
 
 ## Networking
 
-- [ ] Bridge network
-- [ ] Docker DNS
-- [ ] Service discovery
-- [ ] Ports vs Expose
-- [ ] Container communication
+- [1] Bridge network
+- [1] Docker DNS
+- [1] Service discovery
+- [1] Ports vs Expose
+- [1] Container communication
 
 ---
 
 ## Linux
 
-- [ ] Namespaces
-- [ ] Cgroups
-- [ ] Process isolation
-- [ ] Resource limits
+- [1] Namespaces
+- [1] Cgroups
+- [1] Process isolation
+- [1] Resource limits
 
 **✅ Phase 3 Complete**
 
