@@ -297,8 +297,8 @@ inside the WordPress container.
 The project uses named volumes whose local driver is backed by host directories similar to:
 
 ```text
-/home/<host-user>/data/mariadb
-/home/<host-user>/data/wordpress
+/home/abouabba/data/mariadb
+/home/abouabba/data/wordpress
 ```
 
 This gives the project predictable volume names and explicit host-side persistence.
@@ -313,7 +313,7 @@ MariaDB container
 mariadb_data
         |
         v
-/home/<host-user>/data/mariadb
+/home/abouabba/data/mariadb
 ```
 
 and:
@@ -326,7 +326,7 @@ WordPress container
 wordpress_data
         |
         v
-/home/<host-user>/data/wordpress
+/home/abouabba/data/wordpress
 ```
 
 Removing a container does not remove the named volume by default.
@@ -444,8 +444,8 @@ sudo docker volume inspect wordpress_data
 Check host directories:
 
 ```bash
-ls -ld /home/<host-user>/data/mariadb
-ls -ld /home/<host-user>/data/wordpress
+ls -ld /home/abouabba/data/mariadb
+ls -ld /home/abouabba/data/wordpress
 ```
 
 Check ownership and permissions when a service cannot read or write its data.

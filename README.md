@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <login1>.*
+*This project has been created as part of the 42 curriculum by abouabba
 
 # Inception
 
@@ -140,7 +140,7 @@ Docker manages the storage location.
 A bind mount maps an explicit host path into the container:
 
 ```text
-/home/<host-user>/data/mariadb:/var/lib/mysql
+/home/abouabba/data/mariadb:/var/lib/mysql
 ```
 
 The host path is chosen and managed by the administrator.

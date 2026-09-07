@@ -55,7 +55,7 @@ The public entry point is NGINX on HTTPS port `443`.
 For example:
 
 ```text
-https://<configured-domain>
+https://abouabba.42.fr
 ```
 
 The exact domain depends on the project's local hostname or domain configuration.
@@ -65,7 +65,7 @@ The exact domain depends on the project's local hostname or domain configuration
 Open:
 
 ```text
-https://<configured-domain>/wp-admin
+https://abouabba.42.fr/wp-admin
 ```
 
 Sign in with the WordPress administrator credentials configured for the project.
@@ -121,8 +121,8 @@ The persistent project data is stored in the configured host directories backing
 Typical locations in this project are:
 
 ```text
-/home/<host-user>/data/mariadb
-/home/<host-user>/data/wordpress
+/home/abouabba/data/mariadb
+/home/abouabba/data/wordpress
 ```
 
 Do not delete these directories unless you intentionally want to remove the stored data.
