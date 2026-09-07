@@ -4,6 +4,8 @@ set -e
 mkdir -p /var/www/html
 cd /var/www/html
 
+WORDPRESS_PATH="/var/www/html"
+
 echo "Waiting for MariaDB..."
 
 until mysqladmin ping \
@@ -43,5 +45,7 @@ if [ ! -f wp-config.php ]; then
         --user_pass="$WP_USER_PASSWORD" \
         --allow-root
 fi
+
+chown -R www-data:www-data "$WORDPRESS_PATH"
 
 exec php-fpm8.2 -F

@@ -15,6 +15,11 @@ down:
 clean:
 	$(COMPOSE) down -v
 
+fclean:
+	@sudo rm -rf /home/abouabba/data/wordpress home/abouabba/data/mariadb
+	$(COMPOSE) down --rmi all -v
+	docker system prune -af
+
 re: clean up
 
 .PHONY: all up down clean re

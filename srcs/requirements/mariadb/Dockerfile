@@ -11,6 +11,5 @@ COPY tools/init.sh /usr/local/bin/init.sh
 
 RUN chmod +x /usr/local/bin/init.sh
 
-EXPOSE 3306
 
 ENTRYPOINT ["/usr/local/bin/init.sh"]
